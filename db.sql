@@ -1,0 +1,3 @@
+CREATE DATABASE pdo_quest;
+USE DATABASE pdo_quest;
+CREATE TABLE friends (id INT NOT NULL AUTO_INCREMENT, firstname VARCHAR(100), lastname VARCHAR(100), PRIMARY KEY(id));
